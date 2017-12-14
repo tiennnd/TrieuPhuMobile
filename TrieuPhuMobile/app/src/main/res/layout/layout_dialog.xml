@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:text="THÔNG BÁO"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_content_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/you_ready"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TableRow
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_boqua"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:text="@string/bo_qua"
+            android:background="@drawable/button_press"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_size_height" />
+
+        <Button
+            android:id="@+id/btn_sansang"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:text="@string/san_sang"
+            android:background="@drawable/button_press"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_size_height" />
+
+    </TableRow>
+
+
+</RelativeLayout>

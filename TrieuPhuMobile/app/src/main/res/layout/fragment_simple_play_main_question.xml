@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/atp__activity_player_background"
+
+    tools:context=".view.MenuActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/layout_topbar"/>
+
+    <TableRow
+        android:id="@+id/button_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_help_stop"
+            android:layout_width="@dimen/size_button_help"
+            android:layout_height="@dimen/size_button_help"
+            android:layout_marginRight="@dimen/size_space"
+            android:background="@drawable/help_stop_drawable" />
+
+        <Button
+            android:id="@+id/btn_help_call"
+            android:layout_width="@dimen/size_button_help"
+            android:layout_height="@dimen/size_button_help"
+            android:layout_marginRight="@dimen/size_space"
+            android:background="@drawable/help_call" />
+
+        <Button
+            android:id="@+id/btn_help_audience"
+            android:layout_width="@dimen/size_button_help"
+            android:layout_height="@dimen/size_button_help"
+            android:layout_marginRight="@dimen/size_space"
+            android:background="@drawable/help_audience" />
+
+        <Button
+            android:id="@+id/btn_help_change_question"
+            android:layout_width="@dimen/size_button_help"
+            android:layout_height="@dimen/size_button_help"
+            android:layout_marginRight="@dimen/size_space"
+            android:background="@drawable/help_change_question" />
+
+        <Button
+            android:id="@+id/btn_help_5050"
+            android:layout_width="@dimen/size_button_help"
+            android:layout_height="@dimen/size_button_help"
+            android:background="@drawable/help_5050" />
+    </TableRow>
+
+    <include
+        android:id="@+id/include_cauhoi"
+        layout="@layout/layout_cauhoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_help" />
+
+    <include layout="@layout/layout_dapan"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/include_cauhoi"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+</RelativeLayout>

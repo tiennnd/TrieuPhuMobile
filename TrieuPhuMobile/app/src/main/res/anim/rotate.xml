@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/atp__activity_player_layout_money_background"
+    android:duration="6000"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:repeatCount="infinite"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    ></rotate>

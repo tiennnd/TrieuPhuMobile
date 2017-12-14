@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_case_a"
+        android:layout_width="@dimen/width_tv_case"
+        android:layout_height="@dimen/height_tv_case"
+        android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_tv_case"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_case_b"
+        android:layout_width="@dimen/width_tv_case"
+        android:layout_height="@dimen/height_tv_case"
+        android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_tv_case"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_case_c"
+        android:layout_width="@dimen/width_tv_case"
+        android:layout_height="@dimen/height_tv_case"
+        android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_tv_case"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_case_d"
+        android:layout_width="@dimen/width_tv_case"
+        android:layout_height="@dimen/height_tv_case"
+        android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_tv_case"
+        android:visibility="visible" />
+
+
+</LinearLayout>

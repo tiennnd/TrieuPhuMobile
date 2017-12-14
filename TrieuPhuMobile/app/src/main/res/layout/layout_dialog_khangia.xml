@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/atp__activity_player_layout_help_call_audience_background"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp">
+
+            <TextView
+                android:id="@+id/tv_vote_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="0%"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tv_vote_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="0%"
+
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tv_vote_c"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="0%"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tv_vote_d"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="0%"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="A"
+                android:textColor="@android:color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="B"
+                android:textColor="@android:color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="C"
+                android:textColor="@android:color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="D"
+                android:textColor="@android:color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tv_close_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/atp__btn_template"
+            android:gravity="center"
+            android:text="Đóng"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/atp__activity_player_layout_help_call_title_background"
+        android:gravity="center"
+        android:text="Ý kiến khán giả"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

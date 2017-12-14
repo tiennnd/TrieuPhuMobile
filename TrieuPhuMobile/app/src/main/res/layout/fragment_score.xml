@@ -1,0 +1,208 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/atp__activity_player_layout_money_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.ScoreFragment">
+
+    <TextView
+        android:id="@+id/tv_cau15"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="15    150,000,000"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_cau14"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="14    85,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+
+        android:id="@+id/tv_cau13"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="13    60,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau12"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="12    40,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="11    30,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau10"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="10    22,000,000"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_cau9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="09    14,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="08    10,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="07    6,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="06    3,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="05    2,000,000"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_cau4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="04    1,000,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="03    600,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="02    400,000"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_cau1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_score"
+        android:paddingLeft="@dimen/padding_left_score"
+        android:paddingTop="@dimen/padding_top_score"
+        android:text="01   200,000"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
